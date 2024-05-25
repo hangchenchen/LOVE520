@@ -142,6 +142,6 @@ if __name__ == '__main__':
     canvas.pack()
     heart = Heart()
     draw(root, canvas, heart)
-    Label(root, text="张思宇节日快乐！", bg="black", fg="#FF99CC", font="Helvetic 20 bold").place(
+    Label(root, text="520节日快乐！", bg="black", fg="#FF99CC", font="Helvetic 20 bold").place(
         relx=.5, rely=.5, anchor=CENTER)
     root.mainloop()
